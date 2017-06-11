@@ -10,392 +10,410 @@
  Text Domain:  accelerate-theme-child
 */
 
+
 /* include parent theme styles */
+
 @import url("../accelerate-theme/style.css");
 
 /* Homepage Styles */
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
 
 
 /* highlight menu item for current page */
+
 li.current-menu-item a {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
-
-  }
+}
 
 #masthead nav ul li {
-  float: left;
-  margin: 0 10px;
-  text-transform: uppercase;
+    float: left;
+    margin: 0 10px;
+    text-transform: uppercase;
 }
+
 #masthead nav {
-  margin: -25px;
+    margin: -25px;
 }
 
 .button {
-      background: none repeat scroll 0 0 #45ac9d;
-  }
+    background: none repeat scroll 0 0 #45ac9d;
+}
 
 .blog-post {
-	width: 47%;
-  float: left;
+    width: 47%;
+    float: left;
 }
 
 .blog-post h4 {
-	font-size: 16px;
-	font-family: 'Montserrat';
-	color: #a6a6a6;
-	text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #a6a6a6;
+    text-transform: uppercase;
 }
 
 .blog-post h2 {
-	font-size: 24px;
-	font-family: 'Montserrat';
-	font-weight: bold;
-
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
 
 .blog-post .read-more-link {
-	font-size: 16px;
-	font-family: 'Montserrat';
-	font-weight: bold;
-	color: #45ac9d;
-	text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #45ac9d;
+    text-transform: uppercase;
 }
 
 .home .widget-area {
-	width: 48%;
-	float: left;
-  margin-top: 15px;
-  padding-left: 5%;
+    width: 48%;
+    float: left;
+    margin-top: 15px;
+    padding-left: 5%;
 }
 
 .home .widget-area h3 {
-  margin-bottom: 30px;
-  font-size: 16px;
-	font-family: 'Montserrat';
-	font-weight: bold;
-	color: #A6A6A6;
-	text-transform: uppercase;
-	text-align: left;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #A6A6A6;
+    text-transform: uppercase;
+    text-align: left;
 }
+
 .home .widget-area ul {
-	list-style-type: none;
-  margin-left: 0;
+    list-style-type: none;
+    margin-left: 0;
 }
+
 .home .widget-area li {
-	text-align: left;
-  padding: 8px;
+    text-align: left;
+    padding: 8px;
 }
 
 .home .widget-area .follow-us-link {
-	font-size: 16px;
-	font-family: 'Montserrat';
-	font-weight: bold;
-	color: #45ac9d;
-	text-transform: uppercase;
-	margin-left: 60px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #45ac9d;
+    text-transform: uppercase;
+    margin-left: 60px;
 }
+
 .home #pi_simpletwittertweets-2 {
-	text-align: left;
-	font-size: 15px;
-	font-family: 'Montserrat'
-	font-weight: light;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Montserrat' font-weight: light;
 }
+
 .home .tweets {
-  text-align: left;
-	font-size: 15px;
-	font-family: 'Montserrat'
-	font-weight: light;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Montserrat' font-weight: light;
 }
+
 
 /* Case Studies */
 
 aside.case-study-sidebar {
-  float: left;
-  margin-right: 50px;
-  margin-top: 60px;
-  width: 300px;
-
+    float: left;
+    margin-right: 50px;
+    margin-top: 60px;
+    width: 300px;
 }
 
 aside.case-study-sidebar h2 {
-  font-size: 24px;
-	font-family: 'Open Sans';
-	font-weight: 300;
-  margin-top: 0;
+    font-size: 24px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    margin-top: 0;
 }
 
 aside.case-study-sidebar h5 {
-  color: #A9A9A9;
-  font: 'Open Sans';
-  font-size: 14px;
-  font-weight: 300;
-  margin-top: 0;
-
+    color: #A9A9A9;
+    font: 'Open Sans';
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 0;
 }
 
 aside.case-study-sidebar h6 {
-  color: #808080;
-  font: 'Open Sans';
-  font-size: 14px;
-  font-weight: 300;
-  margin-top: 0;
-  margin-bottom: 10%;
+    color: #808080;
+    font: 'Open Sans';
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 10%;
 }
 
 aside.case-study-sidebar p {
-  color: #4d4d4d;
-  font: 'Open Sans';
-  font-size: 16px;
-  font-weight: 200;
-  margin-top: 0;
-  margin-bottom: 10%;
+    color: #4d4d4d;
+    font: 'Open Sans';
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 0;
+    margin-bottom: 10%;
 }
 
 aside.case-study-sidebar a {
-  color: #282828;
-  font-weight: bold;
+    color: #282828;
+    font-weight: bold;
 }
 
 div.case-study-images {
-  float: left;
-  align-items: center;
-  width:600px;
+    float: left;
+    align-items: center;
+    width: 600px;
 }
 
-div.case-study-images img{
-  border: 1px solid #CCC;
-  display: block;
-  margin: 60px 50px 5px 20px;
-  width: 100%;
-  height: auto;
-
+div.case-study-images img {
+    border: 1px solid #CCC;
+    display: block;
+    margin: 60px 50px 5px 20px;
+    width: 100%;
+    height: auto;
 }
+
 
 /*---Featured Work - Front Page----*/
+
 h4.featured-work-title {
-  font-size: 18px;
-  font-family: 'Montserrat';
-  margin-bottom: 25px;
-  text-align: center;
-  text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 ul.homepage-featured-work {
-  margin: 0px 0px 24px 0px;
+    margin: 0px 0px 24px 0px;
 }
 
 ul li.individual-featured-work img {
-  padding: 7px;
+    padding: 7px;
 }
 
 ul li.individual-featured-work {
-  display: inline-block;
-  text-align: center;
+    display: inline-block;
+    text-align: center;
 }
+
 ul li.individual-featured-work h3 {
-  margin-top: 16px;
+    margin-top: 16px;
 }
 
 ul li.individual-featured-work h3 a {
-  font-size: 16px;
-  font-weight: 300;
+    font-size: 16px;
+    font-weight: 300;
 }
-
-
-
 
 
 /* Case Study Archive */
 
 aside.case-study-sidebar h2 a {
-  font-size: 24px;
-	font-family: 'Open Sans';
-	font-weight: 300;
-  margin-top: 0;
+    font-size: 24px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    margin-top: 0;
 }
 
 div.case-study-archive-images {
-  float: left;
-  width:608px;
+    float: left;
+    width: 608px;
 }
 
-div.case-study-archive-images img{
-  border: 1px solid #CCC;
-  display: block;
-  margin: 60px 50px 5px 20px;
-  width: 85%;
-  height: auto;
+div.case-study-archive-images img {
+    border: 1px solid #CCC;
+    display: block;
+    margin: 60px 50px 5px 20px;
+    width: 85%;
+    height: auto;
 }
+
 
 /* Ninja Forms Styling */
 
 #nf-form-1-cont {
-  color: #4d4d4d;
-  font-size: 16px;
-	font-family: 'Open Sans';
-  font-weight: 200;
+    color: #4d4d4d;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 200;
 }
 
 #ninja-forms-fields, #nf-field-3 {
-  border: 1px #CCC solid;
+    border: 1px #CCC solid;
 }
 
 .nf-field .nf-field-label label {
     font-weight: normal;
     font-size: .9em;
 }
-.nf-field-container.textbox-container.label-above,
-.nf-field-container.email-container.label-above {
+
+.nf-field-container.textbox-container.label-above, .nf-field-container.email-container.label-above {
     display: block;
     width: 49%;
     float: left;
     clear: initial;
 }
+
 .nf-field-container.email-container.label-above {
-  margin-left: 2%;
+    margin-left: 2%;
 }
 
+
 /* The Send button */
+
 #nf-field-4 {
-	background-color: #45AC9D;
-  color: #FFF;
-  float: right;
-  font-size: 20px;
-	font-family: 'Montserrat';
-	width: 200px;
-  height: 60px;
+    background-color: #45AC9D;
+    color: #FFF;
+    float: right;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    width: 200px;
+    height: 60px;
 }
+
 
 /* page styles */
 
 #content {
-  margin: auto;
-  width: 623px;
+    margin: auto;
+    width: 623px;
 }
 
 #content h2 {
-	font-family: 'Montserrat';
+    font-family: 'Montserrat';
 }
 
 #content p {
-  color: #4d4d4d;
-  font-size: 14px;
-	font-family: 'Open Sans';
+    color: #4d4d4d;
+    font-size: 14px;
+    font-family: 'Open Sans';
 }
+
 
 /* About Page */
 
 #about-content {
-  margin-top: 325px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 623px;
+    margin-top: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 623px;
 }
 
 #about-content h4 {
-	font-family: 'Montserrat';
-  text-align: center;
+    font-family: 'Montserrat';
+    text-align: center;
 }
 
 #about-content p {
-  color: #4d4d4d;
-  font-size: 14px;
-	font-family: 'Open Sans';
+    color: #4d4d4d;
+    font-size: 14px;
+    font-family: 'Open Sans';
 }
 
 .about-intro {
-  text-align: center;
+    text-align: center;
 }
 
 .services {
-  margin-bottom: 65px;
+    margin-bottom: 65px;
 }
 
-.services:nth-child(odd) div.service-icon img{
-    float:right;
+.services:nth-child(odd) div.service-icon img {
+    float: right;
     margin-left: 5%;
 }
-.services:nth-child(even) div.service-icon img{
-     float:left;
-     margin-right: 5%;
+
+.services:nth-child(even) div.service-icon img {
+    float: left;
+    margin-right: 5%;
 }
 
 .service-title {
     font-weight: bold;
 }
 
+
 /* Header for About page */
 
 .about-head {
     background: url("img/taxi-photo.jpg") no-repeat scroll left bottom / cover rgba(0, 0, 0, 0);
-    height:300px;
+    height: 300px;
 }
 
 .about-head-text {
-  width: 55%;
-  margin: auto;
+    width: 55%;
+    margin: auto;
 }
+
 .about-head-text p {
-  text-align: center;
-  font-weight: 500;
-  font-size: 25px;
-  padding: 75px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 75px;
 }
 
 .first_word {
-  color: #45AC9D;
+    color: #45AC9D;
 }
 
 .contact-content {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  margin: auto;
-  height: 100px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin: auto;
+    height: 100px;
 }
-.contact-message p{
-  color: #4d4d4d;
-  float: left;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: right;
-  margin-top: 50px;
-  width: 50%;
+
+.contact-message p {
+    color: #4d4d4d;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 50px;
+    width: 50%;
 }
+
 .contact-button {
-  float:  left;
-  margin-top: 50px;
-  margin-left: 10%;
-  width: 25%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 25%;
 }
+
 
 /* Footer Social Media Menu */
 
 #menu-social-media-nav li {
-  display: inline-block;
+    display: inline-block;
 }
 
 .tw {
-	background: url("img/twitter-icon.png") no-repeat center 0;
-  padding: 15px;
+    background: url("img/twitter-icon.png") no-repeat center 0;
+    padding: 15px;
 }
+
 .fb {
-	background: url("img/facebook-icon.png") no-repeat center 0;
-  padding: 15px;
+    background: url("img/facebook-icon.png") no-repeat center 0;
+    padding: 15px;
 }
+
 .ln {
-	background: url("img/linkedin-icon.png") no-repeat center 0;
-  padding: 15px;
+    background: url("img/linkedin-icon.png") no-repeat center 0;
+    padding: 15px;
 }
+
 .db {
-	background: url("img/dribbble-icon.png") no-repeat center 0;
-  padding: 15px;
+    background: url("img/dribbble-icon.png") no-repeat center 0;
+    padding: 15px;
 }
 
 
@@ -415,34 +433,36 @@ div.case-study-archive-images img{
     text-align: center;
 }
 
-
-
 .button-404 {
-  margin-left: 38%;
-  margin-right: 35%;
-  margin-top: 10%;
+    margin-left: 38%;
+    margin-right: 35%;
+    margin-top: 10%;
 }
+
 
 /* Sidebar Widget */
+
 .widget {
-	font-size: 0.83em;
-	font-weight: 400;
-	padding: 0 40px;
+    font-size: 0.83em;
+    font-weight: 400;
+    padding: 0 40px;
 }
+
 .widget li {
-  line-height: 1.5em;
+    line-height: 1.5em;
 }
+
 h2.widget-title {
-  font-family: 'Montserrat';
+    font-family: 'Montserrat';
 }
 
 .widget input[type="submit"] {
- border-top: 1px solid #a6a6a6;
- border-bottom: 1px solid #a6a6a6;
- border-right: 1px solid #a6a6a6;
- border-left: none;
- height: 36px;
- background: #45ac9d;
- color: #ffffff;
- vertical-align: middle;
+    border-top: 1px solid #a6a6a6;
+    border-bottom: 1px solid #a6a6a6;
+    border-right: 1px solid #a6a6a6;
+    border-left: none;
+    height: 36px;
+    background: #45ac9d;
+    color: #ffffff;
+    vertical-align: middle;
 }
