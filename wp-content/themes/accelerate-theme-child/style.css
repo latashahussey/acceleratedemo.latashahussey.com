@@ -122,7 +122,7 @@ li.current-menu-item a {
 
 
 /* Case Studies */
-.case-study {
+.case-study, .case-study-archive {
     width: 923px;
 }
 
@@ -231,7 +231,7 @@ aside.case-study-sidebar h2 a {
 
 div.case-study-archive-images {
     float: left;
-    width: 608px;
+    width: 508px;
 }
 
 div.case-study-archive-images img {
