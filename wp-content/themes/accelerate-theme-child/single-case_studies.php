@@ -17,16 +17,20 @@ get_header(); ?>
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
 			<?php while ( have_posts() ) : the_post();
-				//store custom adv fields in php variable using built in function from ACF Plugin-->
+				/*
+//store custom adv fields in php variable using built in function from ACF Plugin-->
 				$service = get_field('service'); //service provided to client
 				$client = get_field('client'); //client company name
 				$site_link = get_field('site_link');  //stores client url
 				$image_1 = get_field('image_1');
 				$image_2 = get_field('image_2');
 				$image_3 = get_field('image_3');
-				$size = "full";  //show full size image
+				$size = "full";  //show full size image*/
+
+
 			?>
 
+			<h1>This is my case studies</h1>
 			<!--Display custom advanced fields on page-->
 			<article class="case-study">
 				<aside class="case-study-sidebar">

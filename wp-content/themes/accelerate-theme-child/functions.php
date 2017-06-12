@@ -26,6 +26,7 @@
  */
 
  function create_custom_post_types() {
+     /* Custom Post Types for Case Studies */
     register_post_type( 'case_studies',
         array(
             'labels' => array(
@@ -35,9 +36,10 @@
             'public' => true,
             'has_archive' => true,
             'rewrite' => array( 'slug' => 'case-studies' ),
-            'menu_item'=> 'dashicons-portfolio',
+            'menu_icon'=> 'dashicons-portfolio',
         )
     );
+    /* Custom Post Types for Services */
     register_post_type( 'services',
         array(
             'labels' => array(
@@ -51,6 +53,7 @@
         )
     );
 }
+/* Add custom post type function to theme*/
 add_action( 'init', 'create_custom_post_types' );
 
 function accelerate_theme_child_widget_init() {

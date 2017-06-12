@@ -28,8 +28,7 @@ get_header(); ?>
 <section class="featured_work">
 	<div class="site-content">
 		<h4 class="featured-work-title">Featured Work</h4>
-		<!--displays single blog
-		 post on page-->
+		<!--displays single blog post on page-->
 		<ul class="homepage-featured-work"> <!--for easier styling-->
 
 
