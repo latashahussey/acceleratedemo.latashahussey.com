@@ -48,7 +48,6 @@ get_header(); ?>
 		<?php wp_reset_query(); ?>
 	</ul>
 	</div>
-
 </section>
 
 

@@ -24,7 +24,7 @@ get_header(); ?>
 				$image_1 = get_field('image_1');
 				$image_2 = get_field('image_2');
 				$image_3 = get_field('image_3');
-				$size = "full";  //show full size image
+				$size = "small";  //show full size image
 			?>
 
 			<!--Display custom advanced fields on page-->
