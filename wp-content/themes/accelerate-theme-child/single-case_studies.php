@@ -25,9 +25,15 @@ get_header(); ?>
 				$image_1 = get_field('image_1');
 				$image_2 = get_field('image_2');
 				$image_3 = get_field('image_3');
+<<<<<<< HEAD
 				$size = "full";  //show full size image*/
 
 
+||||||| merged common ancestors
+				$size = "full";  //show full size image
+=======
+				$size = "small";  //show full size image
+>>>>>>> development
 			?>
 
 			<h1>This is my case studies</h1>
