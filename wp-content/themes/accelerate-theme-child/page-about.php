@@ -28,7 +28,7 @@ get_header('about'); ?>
       ?>
       <?php while ( have_posts() ) : the_post();
 					//store custom adv fields in php variable using built in function from ACF Plugin-->
-					$icon = get_field('icon');
+					$icon = get_field('image');
 					$size = "thumbnail";  //show thumbnail size image
 			 ?>
 

@@ -22,7 +22,7 @@
           </p>
         </div>
         <div class="contact-button">
-          <a class="button" href="<?php echo home_url(); ?>/contact">Contact Us</a>
+          <a class="button" href="<?php echo site_url(); ?>/contact">Contact Us</a>
         </div>
       </section>
 

@@ -47,6 +47,7 @@
 		</div>
 		<div class="about-head">
 			<!--get the about page header description-->
+			<!--create ACF for About Page, added one field to hold the header description-->
 			<?php while ( have_posts() ) : the_post();
 				$header_description =get_field('header_description');
     		$hd_first_word = explode(' ',trim($header_description)); //grab the first word in the about page header description field
